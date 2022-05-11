@@ -1,0 +1,117 @@
+
+
+  nav{
+      background-color: #333;
+      height: 50px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+
+    nav ul{
+       list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1C5FE6;
+    }
+
+    nav ul li {
+      list-style-type: none;
+      width: 150px;
+      float: left;
+      border-right: 1px  #CCC;
+      text-align: center;
+    }
+
+    nav ul li a {
+      display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+    }
+
+    nav ul li a:hover {
+      background-color: yellow;
+      color: green;
+    }
+   
+ .footer {
+
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #2C95E0;
+  border: solid 2px black;
+
+   color: white;
+   text-align: center;
+}
+
+#iconos{
+  width: 30px;
+  height: 50px;
+  margin-left: 0 auto;
+  margin-bottom: 0 auto;
+  color: white;
+  margin:0 12px;
+}
+#ayuda{
+  background-color: black;
+  border: solid 1px #003300;
+}
+.nav-link{
+  color: white;
+}
+
+
+.S1{
+          display: inline-block;
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+    }
+.S2{
+      width: 300px;
+      float: left;
+      border: 5px ;
+      text-align: center;
+      margin: 9px;
+    }
+
+  .S3{
+      margin: auto;
+      padding: 0px;
+    }
+
+
+@media only screen and (min-width: 50px;  max-width: 992px)
+{
+  html
+  {
+    font-size:15px;
+  }
+    nav{
+
+      font-size:1.5em;
+
+    }
+
+  
+
+    nav ul {
+
+      float:left;
+
+      clear:none;
+
+      width:100%;
+
+    }
+
+    nav ul li {
+
+      float:none;
+
+    }
